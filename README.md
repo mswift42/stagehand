@@ -14,7 +14,8 @@ Kit and Yeoman.
 
 ## Stagehand templates
 * `angular2-dart-gnome-example-app` - A sample Angular2 application, with gnomes.
-* `console-full` - A sample command-line application.
+* `console-full` - A larger command-line application sample.
+* `console-simple` - A simple command-line application.
 * `package-simple` - A starting point for Dart libraries or applications.
 * `server-appengine` - A simple App Engine application.
 * `server-shelf` - A web server built using the shelf package.
