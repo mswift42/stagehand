@@ -4,4 +4,3 @@ library math;
 class Math {
   static int doubleIt(int i) => 2 * i;
 }
-

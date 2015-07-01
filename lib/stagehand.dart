@@ -26,12 +26,12 @@ library stagehand;
 import 'dart:async';
 import 'dart:convert';
 
-import 'generators/angular2_dart_gnome_example_app.dart';
 import 'generators/console_full.dart';
 import 'generators/console_simple.dart';
 import 'generators/package_simple.dart';
 import 'generators/server_appengine.dart';
 import 'generators/server_shelf.dart';
+import 'generators/web_angular2.dart';
 import 'generators/web_full.dart';
 import 'generators/web_polymer.dart';
 import 'generators/web_simple.dart';
@@ -39,12 +39,12 @@ import 'src/common.dart';
 
 /// A curated, prescriptive list of Dart project generators.
 final List<Generator> generators = [
-  new Angular2DartGnomeExampleAppGenerator(),
   new ConsoleFullGenerator(),
   new ConsoleSimpleGenerator(),
   new PackageSimpleGenerator(),
   new ServerAppEngineGenerator(),
   new ServerShelfGenerator(),
+  new WebAngular2Generator(),
   new WebFullGenerator(),
   new WebPolymerGenerator(),
   new WebSimpleGenerator()

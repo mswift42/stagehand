@@ -9,7 +9,7 @@ List<String> data = [
 LgouYnVpbGRsb2cKLnB1Yi8KYnVpbGQvCnBhY2thZ2VzCi5pZGVhLwoKIyBPciB0aGUgZmlsZXMg
 Y3JlYXRlZCBieSBkYXJ0MmpzLgoqLmRhcnQuanMKKi5qc18KKi5qcy5kZXBzCiouanMubWFwCgoj
 IE9yIHRoZSBmaWxlcyBjcmVhdGVkIGJ5IE9TWAoqLkRTX1N0b3JlCgojIEluY2x1ZGUgd2hlbiBk
-ZXZlbG9waW5nIGFwcGxpY2F0aW9uIHBhY2thZ2VzLgpwdWJzcGVjLmxvY2sKCg==""",
+ZXZlbG9waW5nIGFwcGxpY2F0aW9uIHBhY2thZ2VzLgpwdWJzcGVjLmxvY2sK""",
   "CHANGELOG.md",
   "text",
   """IyBDaGFuZ2Vsb2cKCiMjIDAuMC4xCgotIEluaXRpYWwgdmVyc2lvbiwgY3JlYXRlZCBieSBTdGFn
@@ -54,7 +54,7 @@ b21lQ29uc2Npb3VzLCBOZ0lmXQogICAgKQpjbGFzcyBHbm9tZUFwcCB7CiAgYm9vbCBpc1Nob3dG
 cmllbmRzID0gdHJ1ZTsKICBpbnQgY291bnQgPSAyOwoKICBidW1wR3Vlc3RDb3VudCgpID0+IGNv
 dW50ICs9IE1hdGguZG91YmxlSXQoY291bnQpOwoKICB2b2lkIHNob3dGcmllbmRzKCkgewogICAg
 aXNTaG93RnJpZW5kcyA9IHRydWU7CiAgICBidW1wR3Vlc3RDb3VudCgpOwogIH0KCiAgdm9pZCBo
-aWRlRnJpZW5kcygpIHsKICAgIGlzU2hvd0ZyaWVuZHMgPSBmYWxzZTsKICB9Cn0=""",
+aWRlRnJpZW5kcygpIHsKICAgIGlzU2hvd0ZyaWVuZHMgPSBmYWxzZTsKICB9Cn0K""",
   "lib/gnome_conscious/gnome_conscious.dart",
   "text",
   """bGlicmFyeSBnbm9tZV9jb25zY2lvdXM7CgppbXBvcnQgJ2RhcnQ6YXN5bmMnOwppbXBvcnQgJ2Rh
@@ -92,19 +92,20 @@ IHRlbXBsYXRlOiAnJycKICAgICAgPGltZyAqbmctaWY9IiFpc1NsZWVwaW5nIiBzcmM9ImltYWdl
 cy9oYXBweV9nbm9tZS5qcGVnIi8+CiAgICAgIDxpbWcgKm5nLWlmPSJpc1NsZWVwaW5nIiBzcmM9
 ImltYWdlcy9zbGVlcHlfZ25vbWUuanBlZyIvPgogICAgJycnLAogICAgZGlyZWN0aXZlczogY29u
 c3QgW05nSWZdCiAgICApCmNsYXNzIEdub21lUGljcyB7CiAgYm9vbCBpc1NsZWVwaW5nID0gZmFs
-c2U7Cn0=""",
+c2U7Cn0K""",
   "lib/math/math.dart",
   "text",
   """bGlicmFyeSBtYXRoOwoKLy8gc2ltcGxlIGNvZGUgaW50ZW50aW9ucyBjYW4gYmUgdmVyeSBzaW1w
 bHkgc3RhdGVkCmNsYXNzIE1hdGggewogIHN0YXRpYyBpbnQgZG91YmxlSXQoaW50IGkpID0+IDIg
-KiBpOwp9Cgo=""",
+KiBpOwp9Cg==""",
   "pubspec.yaml",
   "text",
-  """bmFtZTogJ3t7cHJvamVjdE5hbWV9fScKdmVyc2lvbjogMC4wLjEKZGVzY3JpcHRpb246IEFuZ3Vs
-YXIyIERhcnQgZ25vbWUgZXhhbXBsZSBhcHAKI2F1dGhvcjoge3thdXRob3J9fSA8ZW1haWxAZXhh
-bXBsZS5jb20+CiNob21lcGFnZTogaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20KZW52aXJvbm1lbnQ6
-CiAgc2RrOiAnXjEuOS4zJwpkZXBlbmRlbmNpZXM6CiAgYW5ndWxhcjI6ICIyLjAuMC1hbHBoYS4y
-NSIKICBicm93c2VyOiAiXjAuMTAuMCIKZGV2X2RlcGVuZGVuY2llczoKICB0ZXN0OiBhbnk=""",
+  """bmFtZTogJ3t7cHJvamVjdE5hbWV9fScKdmVyc2lvbjogMC4wLjEKZGVzY3JpcHRpb246IEFuIEFu
+Z3VsYXIyIERhcnQgZ25vbWUgZXhhbXBsZSBhcHAuCiNhdXRob3I6IHt7YXV0aG9yfX0gPGVtYWls
+QGV4YW1wbGUuY29tPgojaG9tZXBhZ2U6IGh0dHBzOi8vd3d3LmV4YW1wbGUuY29tCgplbnZpcm9u
+bWVudDoKICBzZGs6ICc+PTEuOS4wIDwyLjAuMCcKCmRlcGVuZGVuY2llczoKICBhbmd1bGFyMjog
+Mi4wLjAtYWxwaGEuMjUKICBicm93c2VyOiBeMC4xMC4wCgpkZXZfZGVwZW5kZW5jaWVzOgogIHRl
+c3Q6IGFueQo=""",
   "test/lib/conscious/gnome_conscious/gnome_conscious_test.dart",
   "text",
   """QFRlc3RPbigiYnJvd3NlciIpIC8vIG9ubHkgcnVuIHRoaXMgdGVzdCBpbiBhIGJyb3dzZXIsIG90
@@ -143,14 +144,14 @@ dCwgZXF1YWxzKCJ6enp6enoiKSk7CiAgICB9KTsKICB9KTsKfQo=""",
 PC90aXRsZT4KICAgIDxsaW5rIHJlbD0ieC1kYXJ0LXRlc3QiIGhyZWY9Imdub21lX2NvbnNjaW91
 c190ZXN0LmRhcnQiPgogICAgPHNjcmlwdCBzcmM9InBhY2thZ2VzL3Rlc3QvZGFydC5qcyI+PC9z
 Y3JpcHQ+CjwvaGVhZD4KPGJvZHk+CiAgICA8Z25vbWUtYXBwIGlkPSJmb28iPmhpPC9nbm9tZS1h
-cHA+CjwvYm9keT4KPC9odG1sPg==""",
+cHA+CjwvYm9keT4KPC9odG1sPgo=""",
   "test/lib/math/math_test.dart",
   "text",
   """aW1wb3J0ICdwYWNrYWdlOnRlc3QvdGVzdC5kYXJ0JzsKaW1wb3J0ICdwYWNrYWdlOnt7cHJvamVj
 dE5hbWV9fS9tYXRoL21hdGguZGFydCc7CgptYWluKCkgewogIC8vIHRlc3QgdGhhdCBkb2Vzbid0
 IHJlcXVpcmUgYSBicm93c2VyCiAgZ3JvdXAoJ3ZtIHRlc3QnLCAoKSB7CiAgICB0ZXN0KCdtYXRo
 JywgKCkgewogICAgICBleHBlY3QoTWF0aC5kb3VibGVJdCgyKSwgZXF1YWxzKDQpKTsKICAgIH0p
-OwogIH0pOwp9""",
+OwogIH0pOwp9Cg==""",
   "web/images/happy_gnome.jpeg",
   "binary",
   """/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUUExQVFhQXGBgaGBgYFxoXHxcZGRgaFxoc

@@ -2,19 +2,19 @@
 // All rights reserved. Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-library stagehand.angular2gnome;
+library stagehand.web.angular2;
 
 import '../stagehand.dart';
 import '../src/common.dart';
-import 'angular2_dart_gnome_example_app_data.dart';
+import 'web_angular2_data.dart';
 
 /**
  * A generator for an Angular2 application.
  */
-class Angular2DartGnomeExampleAppGenerator extends DefaultGenerator {
-  Angular2DartGnomeExampleAppGenerator() : super('angular2-dart-gnome-example-app', 'Angular2 gnome example app',
+class WebAngular2Generator extends DefaultGenerator {
+  WebAngular2Generator() : super('web-angular2', 'An Angular2 Web Application',
           'A sample Angular2 application, with gnomes.',
-          categories: const ['dart', 'web']) {
+          categories: const ['dart', 'web', 'angular']) {
     for (TemplateFile file in decodeConcatenatedData(data)) {
       addTemplateFile(file);
     }

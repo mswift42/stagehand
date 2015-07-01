@@ -13,12 +13,12 @@ It is a Dart project scaffolding generator, inspired by tools like Web Starter
 Kit and Yeoman.
 
 ## Stagehand templates
-* `angular2-dart-gnome-example-app` - A sample Angular2 application, with gnomes.
 * `console-full` - A larger command-line application sample.
 * `console-simple` - A simple command-line application.
 * `package-simple` - A starting point for Dart libraries or applications.
 * `server-appengine` - A simple App Engine application.
 * `server-shelf` - A web server built using the shelf package.
+* `web-angular2` - A sample Angular2 application, with gnomes.
 * `web-full` - A mobile-friendly web app with routing, responsive CSS, and (optional) Sass support.
 * `web-polymer` - A web app built using polymer.dart.
 * `web-simple` - An absolute bare-bones web app.
